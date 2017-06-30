@@ -1,8 +1,39 @@
-a:hover {
-  color: #968772;
+body {
+  margin: 0px 0px;
 }
 
-@font-face {
-  font-family: 'Merriweather', serif;
-  font-family: 'Roboto', sans-serif;
+a {
+  margin: 0px 30px;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Roboto";
+}
+
+
+a:hover {
+  color: #CD5D67;
+}
+
+header {
+  background-image: url("./images/optimized/bent-creek-logo.png");
+  background-size: 40px 45px;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  background-position: left;
+  padding: 15px 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  font-size: 130%;
+}
+
+
+.main {
+  background-image: url(./images/optimized/background-2.jpg);
+}
+
+.signup {
+  background-color: #FFFFFF;
 }
