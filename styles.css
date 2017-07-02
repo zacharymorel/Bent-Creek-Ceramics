@@ -191,74 +191,101 @@ span:hover {
 .Images {
   display: flex;
   flex-wrap: wrap;
+  color: #F2F1E8;
+  justify-content: space-around;
+  padding-left: 0px;
+
 }
 
-#One {
+#Endless {
   list-style-type: none;
   background-image: url("./images/optimized/product-1.jpg");
-  position:relative;
   background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
   background-size: cover;
-  width: 300px;
+  width: 700px;
+  height: 300px;
+
 
 }
 
-#Two {
+#Textures {
   list-style-type: none;
   background-image: url("./images/optimized/product-2.jpg");
-  position:relative;
   background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
   background-size: cover;
-  width: 300px;
+  width: 15%;
+  height: 300px;
 
 }
 
-#Three {
+#Sets {
   list-style-type: none;
   background-image: url("./images/optimized/product-3.jpg");
-  position:relative;
   background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
   background-size: cover;
-  width: 300px;
+  width: 15%;
+  height: 300px;
 
 }
 
-#Four {
+.ImagesTwo {
+  display: flex;
+  flex-wrap: wrap;
+  color: #F2F1E8;
+  justify-content: space-around;
+  padding-left: 0px;
+}
+
+#Tea {
   list-style-type: none;
   background-image: url("./images/optimized/product-4.jpg");
-  position:relative;
   background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
   background-size: cover;
-  width: 300px;
+  width: 250px;
+  height: 200px;
 
 }
 
-#Five {
+#Jars {
   list-style-type: none;
   background-image: url("./images/optimized/product-5.jpg");
-  position:relative;
   background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
   background-size: cover;
-  width: 300px;
+  width: 250px;
+  height: 200px;
 
 }
 
-#Six {
+#Wasabi {
   list-style-type: none;
   background-image: url("./images/optimized/product-6.jpg");
-  position:relative;
   background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
   background-size: cover;
-  width: 300px;
+  width: 400px;
+  height: 200px;
 
 }
 
-#Seven {
+#Sippin {
   list-style-type: none;
   background-image: url("./images/optimized/product-7.jpg");
-  position:relative;
   background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
   background-size: cover;
-  width: 300px;
+  width: 250px;
+  height: 200px;
 
 }
