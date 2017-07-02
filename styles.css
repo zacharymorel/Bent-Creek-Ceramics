@@ -29,6 +29,16 @@ nav {
   font-size: 130%;
 }
 
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid;
+  padding: 3px 10px 3px 10px;
+}
+
 footer {
   color: white;
   font-family: "Mierweather";
@@ -36,7 +46,7 @@ footer {
   padding: 20px 10px;
 }
 
-.backgroundcolor {
+.AboutBackground {
   background-color: #F2F1E8;
   display: flex;
   flex-direction: column;
@@ -149,4 +159,106 @@ input {
   width: 145px;
   font-weight: lighter;
   font-size: 80%
+}
+
+.TableDataOne {
+  text-align: center;
+}
+
+.TrColor {
+  background-color: #faebd7;
+}
+
+span {
+  color: #968772;
+  text-decoration: underline;
+}
+
+span:hover {
+  color: #967343;
+}
+
+.IndexBackground {
+  background-color: #F2F1E8;
+}
+
+.maintext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#One {
+  list-style-type: none;
+  background-image: url("./images/optimized/product-1.jpg");
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+
+}
+
+#Two {
+  list-style-type: none;
+  background-image: url("./images/optimized/product-2.jpg");
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+
+}
+
+#Three {
+  list-style-type: none;
+  background-image: url("./images/optimized/product-3.jpg");
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+
+}
+
+#Four {
+  list-style-type: none;
+  background-image: url("./images/optimized/product-4.jpg");
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+
+}
+
+#Five {
+  list-style-type: none;
+  background-image: url("./images/optimized/product-5.jpg");
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+
+}
+
+#Six {
+  list-style-type: none;
+  background-image: url("./images/optimized/product-6.jpg");
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+
+}
+
+#Seven {
+  list-style-type: none;
+  background-image: url("./images/optimized/product-7.jpg");
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+
 }
