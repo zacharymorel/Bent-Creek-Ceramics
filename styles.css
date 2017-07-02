@@ -29,6 +29,25 @@ nav {
   font-size: 130%;
 }
 
+footer {
+  color: white;
+  font-family: "Mierweather";
+  background-color: black;
+  padding: 20px 10px;
+}
+
+.backgroundcolor {
+  background-color: #F2F1E8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 200px 25px 200px;
+  color: #131511;
+  font-family: "Merriweather";
+  font-weight: 400;
+  line-height: 40px;
+}
+
 .main {
   background-image: url(./images/optimized/background-2.jpg);
   padding: 4% 15% 15% 15%;
@@ -70,4 +89,64 @@ input {
   height: 50px;
   margin-bottom: 25px;
   font-size: 15px;
+}
+
+.community {
+  font-size: 75px;
+  font-family: "Merriweather";
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding-left: 40px;
+}
+
+.bluebird {
+  width: 150px;
+}
+
+.OurStudio {
+  float: left;
+  margin-right: 30px;
+}
+
+.OurMission {
+  font-style: italic;
+  font-weight: lighter;
+  border-left: 1px solid;
+  padding-left: 20px;
+}
+
+.hTwoAbout {
+  font-weight: lighter;
+}
+
+.AboutImage {
+  background-image: url("./images/optimized/background-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  width: 138%;
+  height: 250px;
+}
+
+.RoomtoGrow {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.pottery {
+  float: right;
+  width: 150px;
+}
+
+.EveryMember {
+  float: right;
+  clear: right;
+  width: 145px;
+  font-weight: lighter;
+  font-size: 80%
 }
