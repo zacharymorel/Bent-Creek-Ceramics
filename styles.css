@@ -12,6 +12,12 @@ a {
 
 a:hover {
   color: #CD5D67;
+  transition-duration: 2s;
+}
+
+a:active {
+  color: #968772;
+  transition-duration: 2s;
 }
 
 header {
@@ -21,12 +27,31 @@ header {
   background-color: #FFFFFF;
   background-position: left;
   padding: 15px 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0px 8px 6px -10px black;
 }
 
 nav {
   display: flex;
   justify-content: center;
   font-size: 130%;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 90px;
+  margin-bottom: 0px;
+
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 30px;
+  margin-top: 10px;
 }
 
 table {
@@ -60,7 +85,7 @@ footer {
 
 .main {
   background-image: url(./images/optimized/background-2.jpg);
-  padding: 4% 15% 15% 15%;
+  padding: 9% 15% 10% 16%;
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -105,7 +130,7 @@ input {
   font-size: 75px;
   font-family: "Merriweather";
   font-weight: 300;
-  margin-top: 40px;
+  margin-top: 110px;
   margin-bottom: 50px;
   padding-left: 40px;
 }
@@ -169,12 +194,15 @@ input {
   background-color: #faebd7;
 }
 
-span {
+.P_Link{
   color: #968772;
+  text-transform: lowercase;
   text-decoration: underline;
+  font-family: 'Merriweather';
+  margin: 0;
 }
 
-span:hover {
+.P_Link:hover {
   color: #967343;
 }
 
@@ -193,7 +221,7 @@ span:hover {
   flex-wrap: wrap;
   color: #F2F1E8;
   justify-content: space-around;
-  padding-left: 0px;
+  padding: 0 5px;
 
 }
 
@@ -204,34 +232,55 @@ span:hover {
   background-position: center;
   position: relative;
   background-size: cover;
-  width: 700px;
+  flex-basis: 59%;
   height: 300px;
-
-
 }
 
-#Textures {
+#Endless p {
+   background-color: #2b2f30 ;
+   color: #F2F1E8 ;
+   position: absolute;
+   bottom: 0px;
+   padding: 1em;
+}
+
+#Sets {
   list-style-type: none;
   background-image: url("./images/optimized/product-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
   background-size: cover;
-  width: 15%;
+  flex-basis: 19%;
   height: 300px;
 
 }
 
-#Sets {
+#Sets P {
+  background-color: #2b2f30 ;
+  color: #F2F1E8 ;
+  position: absolute;
+  bottom: 0px;
+  padding: 1em;
+}
+
+#Textures {
   list-style-type: none;
   background-image: url("./images/optimized/product-3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
   background-size: cover;
-  width: 15%;
+  flex-basis: 19%;
   height: 300px;
+}
 
+#Textures p {
+  background-color: #2b2f30 ;
+  color: #F2F1E8 ;
+  position: absolute;
+  bottom: 0px;
+  padding: 1em;
 }
 
 .ImagesTwo {
@@ -239,7 +288,7 @@ span:hover {
   flex-wrap: wrap;
   color: #F2F1E8;
   justify-content: space-around;
-  padding-left: 0px;
+  padding: 0px 5px;
 }
 
 #Tea {
@@ -249,9 +298,17 @@ span:hover {
   background-position: left;
   position: relative;
   background-size: cover;
-  width: 250px;
+  flex-basis: 19%;
   height: 200px;
+  vertical-align: bottom;
+}
 
+#Tea p {
+  background-color: #2b2f30 ;
+  color: #F2F1E8 ;
+  position: absolute;
+  bottom: 0px;
+  padding: 1em;
 }
 
 #Jars {
@@ -261,9 +318,16 @@ span:hover {
   background-position: left;
   position: relative;
   background-size: cover;
-  width: 250px;
+  flex-basis: 19%;
   height: 200px;
+}
 
+#Jars p {
+  background-color: #2b2f30 ;
+  color: #F2F1E8 ;
+  position: absolute;
+  bottom: 0px;
+  padding: 1em;
 }
 
 #Wasabi {
@@ -273,9 +337,16 @@ span:hover {
   background-position: top;
   position: relative;
   background-size: cover;
-  width: 400px;
+  flex-basis: 39%;
   height: 200px;
+}
 
+#Wasabi p {
+  background-color: #2b2f30 ;
+  color: #F2F1E8 ;
+  position: absolute;
+  bottom: 0px;
+  padding: 1em;
 }
 
 #Sippin {
@@ -285,7 +356,14 @@ span:hover {
   background-position: left;
   position: relative;
   background-size: cover;
-  width: 250px;
+  flex-basis: 19%;
   height: 200px;
+}
 
+#Sippin p {
+  background-color: #2b2f30 ;
+  color: #F2F1E8 ;
+  position: absolute;
+  bottom: 0px;
+  padding: 1em;
 }
